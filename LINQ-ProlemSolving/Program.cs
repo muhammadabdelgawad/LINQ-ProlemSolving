@@ -1,5 +1,5 @@
 ﻿using static System.Console;  
-using static LINQ_ProlemSolving.Data.DataLists;  
+using static LINQ_ProlemSolving.Data.DataLists;
 #region Easy
 #region 1. Retrieve all products with a unit price greater than $50.
 
@@ -52,7 +52,7 @@ using static LINQ_ProlemSolving.Data.DataLists;
 //            order = order
 
 //        }).Where(c => c.customer.CustomerID == "BONAP").Count();
-   
+
 //    WriteLine($"Total orders placed by customer 'BONAP': {customers}");
 
 #endregion
@@ -67,6 +67,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 6. Find products that are discontinued.
+//var products = Products.Where(p => p.Discontinued );
+
+//foreach (var item in products)
+//{
+//    WriteLine(item);
+//}
 #endregion
 
 #region 7. Retrieve the names and phone numbers of all suppliers.
