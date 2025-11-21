@@ -58,6 +58,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 5. List all employees who are managers.
+//var managers= Employees.Where(e => Employees.Any(emp => emp.ReportsTo == e.EmployeeID)).ToList();
+//foreach (var manager in managers)
+//{
+//    WriteLine(manager);
+//}
+
 #endregion
 
 #region 6. Find products that are discontinued.
