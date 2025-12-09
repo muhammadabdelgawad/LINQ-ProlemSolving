@@ -1,4 +1,4 @@
-﻿using static System.Console;  
+﻿using static System.Console;
 using static LINQ_ProlemSolving.Data.DataLists;
 #region Easy
 #region 1. Retrieve all products with a unit price greater than $50.
@@ -96,6 +96,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 9. Find all customers in the "USA".
+
+//var customers = Customers.Where(c => c.Country == "USA");
+//foreach (var customer in customers)
+//{
+//    WriteLine(customer);
+//}
 #endregion
 
 #region 10. List products that belong to category "Beverages".
