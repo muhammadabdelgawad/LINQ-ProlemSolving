@@ -164,6 +164,14 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 15. Retrieve orders that were shipped but not yet delivered.
+
+//var orders = Orders.Where(o => o.ShippedDate < o.RequiredDate);
+
+//foreach (var order in orders)
+//{
+//    Console.WriteLine(order);
+//}
+
 #endregion
 
 #region 16. Get the total number of products in each category.
