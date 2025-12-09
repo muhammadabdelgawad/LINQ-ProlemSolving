@@ -135,6 +135,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 12. Get the names and titles of all employees.
+
+//var employees = Employees.Select(x => new { x.FirstName, x.LastName, x.Title });
+//foreach (var employee in employees)
+//{
+//    Console.WriteLine(employee);
+//}
+
 #endregion
 
 #region 13. Find suppliers from "Germany".
