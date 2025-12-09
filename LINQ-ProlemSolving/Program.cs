@@ -155,6 +155,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 14. List all products with quantities between 10 and 50.
+
+//var products =  Products.Where(p=> p.UnitsInStock >= 10 && p.UnitsInStock <= 50 ).ToList();
+//foreach (var item in products)
+//{
+//    Console.WriteLine(item);
+//}
 #endregion
 
 #region 15. Retrieve orders that were shipped but not yet delivered.
