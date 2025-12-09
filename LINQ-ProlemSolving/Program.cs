@@ -76,6 +76,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 7. Retrieve the names and phone numbers of all suppliers.
+
+//var suppliers = Suppliers.Select(s => new { s.CompanyName, s.Phone });
+//foreach (var supplier in suppliers)
+//{
+//    WriteLine($"Name: {supplier.CompanyName},  | Phone: {supplier.Phone}");
+//}
+
 #endregion
 
 #region 8. Get all orders placed in the year 1997.
