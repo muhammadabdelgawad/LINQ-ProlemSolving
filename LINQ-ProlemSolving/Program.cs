@@ -86,6 +86,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 8. Get all orders placed in the year 1997.
+
+//var orders = Orders.Where(o => o.OrderDate.Year == 1997);
+//foreach (var order in orders)
+//{
+//    WriteLine(order);
+//}
+
 #endregion
 
 #region 9. Find all customers in the "USA".
