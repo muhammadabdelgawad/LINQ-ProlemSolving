@@ -145,6 +145,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 13. Find suppliers from "Germany".
+
+//var sups = Suppliers.Where(s => s.Country == "Germany");
+//foreach (var item in sups)
+//{
+//    Console.WriteLine(item);
+//}
+
 #endregion
 
 #region 14. List all products with quantities between 10 and 50.
