@@ -125,6 +125,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 11. Retrieve orders with a freight cost less than 20.
+
+//var orders = Orders.Where(o => o.Freight < 20);
+//foreach (var order in orders)
+//{
+//    Console.WriteLine(order);
+//}
+
 #endregion
 
 #region 12. Get the names and titles of all employees.
