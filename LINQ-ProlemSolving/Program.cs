@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using LINQ_ProlemSolving;
+using static System.Console;
 using static LINQ_ProlemSolving.Data.DataLists;
 #region Easy
 #region 1. Retrieve all products with a unit price greater than $50.
@@ -105,6 +106,22 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 10. List products that belong to category "Beverages".
+
+//var products = Products.Join(Categories,
+//    p => p.CategoryID,
+//    c => c.CategoryID,
+//    (p, c) => new
+//    {
+//        Product = p,
+//        CategoryID = c
+//    }).Where(pc => pc.CategoryID.CategoryName == "Beverages")
+//    .Select(pc => pc.Product);
+
+//foreach (var product in products)
+//{
+//    WriteLine(product);
+//}
+
 #endregion
 
 #region 11. Retrieve orders with a freight cost less than 20.
