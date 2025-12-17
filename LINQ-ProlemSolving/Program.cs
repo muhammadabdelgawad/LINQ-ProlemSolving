@@ -191,6 +191,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 17. List all orders placed by employee with ID 5.
+
+//var orders = Orders.Where(o=>o.EmployeeID ==5).ToList();
+//foreach (var order in orders)
+//{
+//    Console.WriteLine(order);
+//}
+
 #endregion
 
 #region 18. Find the name of the supplier with the highest ID.
