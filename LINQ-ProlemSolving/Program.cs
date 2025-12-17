@@ -218,6 +218,11 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 20. List all customers from "Germany".
+//var customers = Customers.Where(c => c.Country == "Germany").ToList();
+//foreach (var customer in customers)
+//{
+//    Console.WriteLine(customer);
+//}
 #endregion
 
 #region 21. Find all products that have never been ordered.
