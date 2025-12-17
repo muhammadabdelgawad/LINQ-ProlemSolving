@@ -1,5 +1,4 @@
 ﻿using LINQ_ProlemSolving;
-using static System.Console;
 using static LINQ_ProlemSolving.Data.DataLists;
 #region Easy
 #region 1. Retrieve all products with a unit price greater than $50.
@@ -201,7 +200,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 18. Find the name of the supplier with the highest ID.
+
+//var supplier= Suppliers.OrderBy(s=>s.SupplierID).LastOrDefault();
+//Console.WriteLine(supplier.CompanyName);
+
 #endregion
+
 
 #region 19. Retrieve products that have "box" in their quantity per unit description.
 #endregion
