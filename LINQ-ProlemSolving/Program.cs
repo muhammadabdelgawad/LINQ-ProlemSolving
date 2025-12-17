@@ -175,6 +175,19 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 16. Get the total number of products in each category.
+
+//var productCounts = Products.GroupBy(c => c.CategoryID)
+//                                  .Select(x => new
+//                                  {
+//                                      CategoryId = x.Key,
+//                                      Count = x.Count()
+//                                  }
+//                                  );
+//foreach (var item in productCounts)
+//{
+//    Console.WriteLine(item);
+//}
+
 #endregion
 
 #region 17. List all orders placed by employee with ID 5.
