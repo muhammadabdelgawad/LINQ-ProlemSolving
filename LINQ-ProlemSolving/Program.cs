@@ -206,8 +206,15 @@ using static LINQ_ProlemSolving.Data.DataLists;
 
 #endregion
 
-
 #region 19. Retrieve products that have "box" in their quantity per unit description.
+
+//var products = Products.Where(p=>p.QuantityPerUnit.Contains("box")).ToList();
+
+//foreach (var product in products)
+//{
+//    Console.WriteLine(product);
+//}
+
 #endregion
 
 #region 20. List all customers from "Germany".
