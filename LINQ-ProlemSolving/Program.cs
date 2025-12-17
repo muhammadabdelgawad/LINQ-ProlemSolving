@@ -226,6 +226,13 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 21. Find all products that have never been ordered.
+
+//var products = Products.Where(p => !OrderDetails.Any(od=>od.ProductID == p.ProductID));
+//foreach (var product in products)
+//{
+//    Console.WriteLine(product);
+//}
+
 #endregion
 
 #region 22. Get all orders with a freight cost greater than 50.
