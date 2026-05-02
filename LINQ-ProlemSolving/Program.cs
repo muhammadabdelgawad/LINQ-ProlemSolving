@@ -236,6 +236,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 22. Get all orders with a freight cost greater than 50.
+//var orders = Orders.Where(o => o.Freight > 50);
+//foreach (var order in orders)
+//{
+//    Console.WriteLine(order);
+//}
+
 #endregion
 
 #region 23. Retrieve names of all categories.
