@@ -1,4 +1,5 @@
 ﻿using LINQ_ProlemSolving;
+using LINQ_ProlemSolving.Entities;
 using static LINQ_ProlemSolving.Data.DataLists;
 #region Easy
 #region 1. Retrieve all products with a unit price greater than $50.
@@ -254,6 +255,10 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 24. List all orders where the ship city is "Mannheim".
+
+//var orders = Orders.Where(o=> o.ShipCity == "Mannheim");
+//foreach (var order in orders)
+//    Console.WriteLine(order);
 #endregion
 
 #region 25. Find the employees who have "Sales" in their title.
