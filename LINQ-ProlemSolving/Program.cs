@@ -245,6 +245,12 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 23. Retrieve names of all categories.
+
+//var names = Categories.Select(c => c.CategoryName);
+//foreach (var item in names)
+//{
+//    Console.WriteLine(item);
+//}
 #endregion
 
 #region 24. List all orders where the ship city is "Mannheim".
