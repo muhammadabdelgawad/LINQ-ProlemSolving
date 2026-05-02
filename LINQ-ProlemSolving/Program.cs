@@ -262,6 +262,10 @@ using static LINQ_ProlemSolving.Data.DataLists;
 #endregion
 
 #region 25. Find the employees who have "Sales" in their title.
+
+//var employees = Employees.Where(e => e.Title.Contains("Sales"));
+//foreach (var employee in employees)
+//    Console.WriteLine(employee);
 #endregion
 
 #region 26. Retrieve orders that were placed in the month of June.
